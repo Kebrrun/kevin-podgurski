@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+}
+/* box*/
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(224, 212, 212);
+    font-family: 'Century Gothic', sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h2{
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
+}
+/* box */
+
+
+/* CV html */
+.box-cv{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(224, 212, 212);
+    font-family: 'Century Gothic', sans-serif;
+}
+.headings{
+    text-decoration-line: underline;
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.cv-item{
+    display: flex;
+    align-items: center;
+}
+
+.cv-item p{
+    flex: 1;
+    max-width: 200px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.year {
+    margin-top: 5px;
+}
+.line-height{
+    line-height: 50%;
+}
+/* social buttons */
+ul{
+    margin:0;
+    padding:0;
+}
+.box li{
+    display: inline-block;
+    margin:0px;
+    list-style: none;
+}
+.box li a{
+    color: rgb(141, 140, 140);
+    text-decoration: none;
+    font-size: 45px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: rgba(46, 41, 41, 0.7);
+}
+/* social buttons */
+
+
+/* Language and About me buttons */
+.buttons{
+    display: flex;
+    align-items: center;
+}
+/* DE button described as ":first-of-type" */
+.buttons a:first-of-type{
+    color:  rgb(141, 140, 140);
+    font-size: 13px;
+    text-decoration: none;
+}
+.buttons a:first-of-type:hover{
+    color: rgba(83, 75, 75, 0.7);
+}
+/* DE button described as ":first-of-type" */
+.contact{
+    color:  rgb(141, 140, 140);
+    margin-left: 15px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.contact:hover{
+    color: rgba(83, 75, 75, 0.7);
+}
+/* Language and About me buttons */
+
